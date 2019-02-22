@@ -1,5 +1,5 @@
 language: java
-jdk: openjdk11
+jdk: openjdk10
 script: 
     - mvn clean install test
     - mvn spotbugs:spotbugs
